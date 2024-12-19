@@ -50,6 +50,9 @@ animation:drop 4s forwards;
   width:100%;
   border-radius: 56px;
 }
+#hero-img:hover{
+  transform:scale(0.92);
+}
 .heroin{
   font-family: DotGothic16;
   font-size: 48px;
