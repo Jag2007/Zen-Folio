@@ -2,7 +2,7 @@ body{
 margin:0px;
 padding:0px;
 }
-
+/* Styles for the nav bar */
 .navbar {
 display: flex;
 justify-content: space-between;
@@ -32,6 +32,7 @@ font-weight: bold;
 font-family: DotGothic16;
 text-align:center;
 }
+/* Styles for the welcom image and the welcome text including the styles for the about section and also having the hover affects to make it look attractive.*/
 .hero-image{
   margin:50px;
 }
@@ -70,9 +71,10 @@ color:rgba(0, 0, 0, 1);
   line-height: 32px;
   text-align: left;
 }
-.text1:hover{
+.text2:hover{
   transform: scale(1.5);
 }
+/* Styles for the top images which summarise the work */
 .topimages{
   padding:0px 0px;
   display:flex;
@@ -95,7 +97,7 @@ color:rgba(0, 0, 0, 1);
   height: 100%;
   width: 100%;
 }
-
+/* Styles for the portfolio having the grid styles and arranging them accoringly and also having the hover affects to make it look attractive. */
 .about .portfolio {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -135,11 +137,13 @@ transform:scale(1.25);
   text-align: left;
   padding-left:20px;
 }
+/* Styles here style the text of what my clints say  */
 .container3 #text{
   font-family: DotGothic16;
   font-size: 48px;
   text-align: center;
 }
+/* Styles for the clint feedback cards . */
 .Testimonials{
   padding:0px 50px 50px 50px;
   display:flex;
@@ -174,7 +178,7 @@ transform:scale(1.25);
 .Testimonialcard:hover{
   transform:scale(0.9);
 }
-
+/* Styles for the contact section which includes the text and form styling. */
 .contact h4{
 padding-top:50px;
 font-family: DotGothic16;
@@ -236,6 +240,7 @@ color:rgba(36, 25, 243, 1);
 .contact a:hover {
 text-decoration: underline;
 }
+/* Styles for the footer section. */
 .footer{
   padding:10px 0px;
   display:flex;
@@ -267,16 +272,7 @@ footer {
   transition: all 0.3s ease;
   font-size: 20px;
 }
-@keyframes drop {
-  0% {
-      opacity: 0;
-      transform: translateY(-100px);
-  }
-  100% {
-      opacity: 1;
-      transform: translateY(0);
-  }
-}
+/* Media Queries for the larger screen.*/
 @media only screen and (max-width:1024px){
   .heroin{
     font-size:40px;
@@ -297,6 +293,7 @@ footer {
     width: auto;
   }
 }
+/* Media Queries for the mobile screens*/
 @media only screen and (max-width:600px){
   .nav-right{
     display: none !important;
