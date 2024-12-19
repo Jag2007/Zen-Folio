@@ -31,6 +31,7 @@ font-size: 24px;
 font-weight: bold;
 font-family: DotGothic16;
 text-align:center;
+animation:drop 4s forwards;
 }
 /* Styles for the welcom image and the welcome text including the styles for the about section and also having the hover affects to make it look attractive.*/
 .hero-image{
@@ -271,6 +272,17 @@ footer {
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: 20px;
+}
+/* Animation for the welcome text. */
+@keyframes drop {
+  0% {
+      opacity: 0;
+      transform: translateY(-100px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
 /* Media Queries for the larger screen.*/
 @media only screen and (max-width:1024px){
